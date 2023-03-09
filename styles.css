@@ -1,8 +1,17 @@
-body {
-background-color: rgb(159, 153, 153);
+
+body{
+    margin: 0;
+    height: 100vh;
 }
 .container{
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: 100px auto 100 px;
+    gap: 0px;
+}
+
+header{
+    background-color: rgb(103, 117, 0);
+    grid-column-start: 1;
+    grid-column-end: 5;
 }

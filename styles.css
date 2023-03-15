@@ -6,7 +6,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100 auto auto 100;
 }
 
@@ -90,14 +90,11 @@ aside{
     grid-row-start:3;
     grid-row-end: 4;
     background-color: white;
-
 }
 
 aside > img {
     width: 100%;
-    padding-top: 73px;
     background-color: white;
-    
 }
 
 footer{
@@ -144,5 +141,33 @@ footer{
 
 .paymentmethod > img {
     height: 100%;
-    margin-left: 58%;
+    margin-left: auto;
+    margin-right: 10%;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nested{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,1fr);
+        
+        column-gap: 5px;
+        row-gap: 5px;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    aside{
+        position: relative;
+    }
+
+    aside > img {
+        position: absolute;
+        bottom: 0;
+    }
+
 }

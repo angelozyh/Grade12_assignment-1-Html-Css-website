@@ -24,7 +24,7 @@ header{
 
 .nestedheader > img{
     height: 100%;
-    margin-left: 110px;
+    margin-left: 8.5%;
 }
 
 .interface{
@@ -36,7 +36,7 @@ header{
     display: grid;
     grid-template-columns: 110px 90px 150px 110px;
     grid-template-rows: auto;
-    margin-left: 115px;
+    margin-left: 9%;
 }
 
 .linklist > a{
@@ -74,9 +74,9 @@ main{
     
     column-gap: 20px;
     row-gap: 5px;
-    padding-left: 120px;
-    padding-right: 170px;
-    padding-top: 30px;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 55px;
     padding-bottom: 30px;
 }
 
@@ -116,7 +116,7 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     font-size: 25px;
-    margin-left: 185px;
+    margin-left: 12.5%;
 }
 
 .bottominterface > div > a {
@@ -128,7 +128,7 @@ footer{
 }
 
 .bottominterface > div > a > p{
-    margin-left: 185px;
+    margin-left: 12.5%;
 }
 
 .paymentmethod {
@@ -143,7 +143,6 @@ footer{
     height: 100%;
     margin-left: auto;
     margin-right: 10%;
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -168,6 +167,45 @@ footer{
     aside > img {
         position: absolute;
         bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    .nestedheader > img{
+        margin-left: 3.5%;
+    }
+
+    .interface{
+        padding: 17px;
+    }
+    
+    .linklist{
+        grid-template-columns: 80px 60px 110px 70px;
+        margin-left: 4%;
+    }
+
+    .linklist > a{
+        font-size: 12px;
+    }
+
+    .paymentmethod > img {
+        width: 100%;
+        height: 80%;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+
+    .nestedheader > img{
+        margin-left: 1%;
+    }
+
+    .linklist{
+        grid-template-columns: 70px 50px 100px 60px;
+        margin-left: 1.5%;
     }
 
 }

@@ -47,7 +47,7 @@ header{
     font-size: 14px;
 }
 
-.banner{
+#bannerhome{
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start:2;
@@ -55,7 +55,7 @@ header{
     background: white;
 }
 
-.banner > img{
+#bannerhome > img{
     width:100%;
 }
 
@@ -67,7 +67,7 @@ main{
     background: white;
 }
 
-.nested{
+#producthome{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
@@ -80,7 +80,7 @@ main{
     padding-bottom: 30px;
 }
 
-.nested > a img {
+#producthome > a img {
     width: 100%;
 }
 
@@ -147,7 +147,7 @@ footer{
 
 @media only screen and (max-width: 768px) {
 
-    .nested{
+    #producthome{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3,1fr);

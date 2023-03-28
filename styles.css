@@ -22,7 +22,7 @@ header{
     grid-template-rows: 100px 1fr;
 }
 
-.nestedheader > img{
+.nestedheader img{
     height: 100%;
     margin-left: 8.5%;
 }
@@ -80,7 +80,7 @@ main{
     padding-bottom: 30px;
 }
 
-#producthome a img {
+#producthome a img{
     width: 100%;
 }
 
@@ -92,7 +92,7 @@ aside{
     background-color: white;
 }
 
-aside img {
+aside img{
     width: 100%;
     background-color: white;
 }
@@ -103,7 +103,7 @@ footer{
     grid-column-end: 5;
 }
 
-.bottominterface {
+.bottominterface{
     grid-template-columns: repeat(3,auto);
     grid-template-rows: auto;
     padding-top: 30px;
@@ -111,7 +111,7 @@ footer{
     border-bottom: 1px inset rgba(255, 255, 255, 0.112);
 }
 
-.bottominterface div h1 {
+.bottominterface h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
@@ -119,7 +119,7 @@ footer{
     margin-left: 12.5%;
 }
 
-.bottominterface div a {
+.bottominterface a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.553);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -127,11 +127,11 @@ footer{
     font-size: 15px;
 }
 
-.bottominterface div a p{
+.bottominterface a p{
     margin-left: 12.5%;
 }
 
-.paymentmethod {
+.paymentmethod{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40px;
@@ -139,7 +139,7 @@ footer{
     margin-bottom: 8px;
 }
 
-.paymentmethod img {
+.paymentmethod img{
     height: 100%;
     margin-left: auto;
     margin-right: 10%;
@@ -164,7 +164,7 @@ footer{
         position: relative;
     }
 
-    aside img {
+    aside img{
         position: absolute;
         bottom: 0;
     }
@@ -173,7 +173,7 @@ footer{
 
 @media only screen and (max-width: 426px) {
 
-    .nestedheader > img{
+    .nestedheader img{
         margin-left: 3.5%;
     }
 
@@ -190,7 +190,7 @@ footer{
         font-size: 12px;
     }
 
-    .paymentmethod > img {
+    .paymentmethod img{
         width: 100%;
         height: 80%;
         margin-right: auto;
